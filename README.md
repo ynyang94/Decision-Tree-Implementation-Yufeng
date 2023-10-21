@@ -7,7 +7,7 @@ chmod 755 run.sh \
 You actually only need to run **run.sh** once in each sub folder in Ensemble Learning. \
 The results is stored in the test file name in the format like: bank_test_xxxx.py 
 ### Adaboost
-In bank_test_ada.py, T represents the number of subtrees,depth is the maximal depth for single decision tree. \
+In bank_test_ada.py, T represents the number of subtrees,depth is the maximal depth for single decision tree. 
 ### Bagging
 In bank_test_bagging.py, T represents the number of subtrees,depth is the maximal depth for single decision tree. \
 sample_size is the training sample size we want.
@@ -17,3 +17,7 @@ sample_train_data_round_size is the size of the training data size of bagged tre
 In bank_test_rf.py, same meaning as above for T and depth, subset_size is the sub-feature set size we want to sample. \
 In benk_test_rfbv.py, same meaning for T, num_run, depth,sample_size, the sample size for feature set is in the line: \
 RF.ID3(metric_selection = 'entropy', max_depth=depth, attribute_subset = 2).
+### Linear Regression
+The test case is stored in concrete_test.py.\
+change the iteration by setting the variable LMS.max_iter \
+change the learning rate by LMS.lr
