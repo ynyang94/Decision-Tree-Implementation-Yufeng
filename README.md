@@ -6,6 +6,9 @@ chmod 755 run.sh \
 **Note**
 You actually only need to run **run.sh** once in each sub folder in Ensemble Learning. \
 The results is stored in the test file name in the format like: bank_test_xxxx.py 
+### Perceptron
+The test case are all stored in bank_test.py, to run the result, run the run.sh file. All APIs of standard, voted, average perceptron \
+are in perceptron.py
 ### Adaboost
 In bank_test_ada.py, T represents the number of subtrees,depth is the maximal depth for single decision tree. 
 ### Bagging
