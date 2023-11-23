@@ -6,6 +6,9 @@ chmod 755 run.sh \
 **Note**
 You actually only need to run **run.sh** once in each sub folder in Ensemble Learning. \
 The results is stored in the test file name in the format like: bank_test_xxxx.py 
+### SVM
+All apis of SVM: linear primal dual, kernel svm and bonus question (kernel perceptron) are in SupportVectorMachine.py
+bank_test.py loads data and hyper-parameter for test.
 ### Perceptron
 The test case are all stored in bank_test.py, to run the result, run the run.sh file. All APIs of standard, voted, average perceptron \
 are in perceptron.py
