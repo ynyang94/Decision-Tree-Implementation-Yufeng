@@ -6,6 +6,13 @@ chmod 755 run.sh \
 **Note**
 You actually only need to run **run.sh** once in each sub folder in Ensemble Learning. \
 The results is stored in the test file name in the format like: bank_test_xxxx.py 
+### Neural Network
+NeuralNetwork.py implements all the APIs of neural nets, such as forward propogation, backword propogation,SGD etc.\
+bank_test.py is test case for bank note dataset.\
+dnn.py is pytorch version of neural nets. Please ensure to install pytorch, torchvision before running the code.
+### logistic regression
+logistic.py includes SGD for MAP and MLE version logistic regression.\
+bank_test.py is test case for dataset.
 ### SVM
 All apis of SVM: linear primal dual, kernel svm and bonus question (kernel perceptron) are in SupportVectorMachine.py
 bank_test.py loads data and hyper-parameter for test.
